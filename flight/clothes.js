@@ -19,3 +19,5 @@ const clothesToWear3 = (getClothesToWear(12));
 console.log(clothesToWear3);
 
 // console.log(getClothesToWear(20));
+
+
