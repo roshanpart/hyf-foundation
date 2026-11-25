@@ -1,0 +1,2 @@
+# Keep editor-specific VS Code settings out of the assignment repository.
+**/.vscode/
