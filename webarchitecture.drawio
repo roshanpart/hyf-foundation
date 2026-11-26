@@ -1,0 +1,401 @@
+<mxfile host="65bd71144e">
+    <diagram id="Vk6px0QCPQ8qaeR0q9VD" name="Page-1">
+        <mxGraphModel dx="519" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="User" vertex="1">
+                    <mxGeometry height="60" width="30" x="30" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-10" edge="1" parent="1" source="EVykAi2dWBb8Uou-y4qD-4" style="edgeStyle=none;html=1;" target="EVykAi2dWBb8Uou-y4qD-5" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-25" edge="1" parent="1" source="EVykAi2dWBb8Uou-y4qD-4" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" value="Displays updated info to user">
+                    <mxGeometry relative="1" x="-0.0667" y="10" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="60" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Frontend" vertex="1">
+                    <mxGeometry height="60" width="120" x="210" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-23" edge="1" parent="1" style="edgeStyle=none;html=1;shadow=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="112" as="sourcePoint"/>
+                        <mxPoint x="330" y="112" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-24" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Response returns with HTTP Protocal&amp;nbsp;" vertex="1">
+                    <mxGeometry relative="1" x="0.1091" y="3" as="geometry">
+                        <mxPoint y="15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Backend" vertex="1">
+                    <mxGeometry height="60" width="120" x="440" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-19" edge="1" parent="1" source="EVykAi2dWBb8Uou-y4qD-6" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;shadow=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="115" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-21" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Return Recipe Data" vertex="1">
+                    <mxGeometry relative="1" x="-0.0333" y="4" as="geometry">
+                        <mxPoint y="11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Database" vertex="1">
+                    <mxGeometry height="80" width="60" x="680" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-8" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=-0.025;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="EVykAi2dWBb8Uou-y4qD-4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="60" y="75.54545454545456" as="sourcePoint"/>
+                        <mxPoint x="210" y="71" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-9" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="User clicks&amp;nbsp;" vertex="1">
+                    <mxGeometry relative="1" x="-0.053" y="-3" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-11" edge="1" parent="1" source="EVykAi2dWBb8Uou-y4qD-5" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=7.5;entryPerimeter=0;" target="EVykAi2dWBb8Uou-y4qD-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-12" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Click button and fill form&amp;nbsp;" vertex="1">
+                    <mxGeometry height="80" width="120" x="59" y="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-13" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Send request with HTTP protoal" vertex="1">
+                    <mxGeometry height="80" width="120" x="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-14" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Read/Save/ Update/Delate" vertex="1">
+                    <mxGeometry height="80" width="120" x="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-26" parent="1" style="shape=tape;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;u&gt;Add a new recipe&amp;nbsp;&lt;/u&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="88" width="420" x="70" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-27" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="user" vertex="1">
+                    <mxGeometry height="60" width="30" x="20" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-28" parent="1" style="shape=tape;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;u&gt;Web architecture diagram&amp;nbsp;&lt;/u&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="88" width="420" x="90" y="-120" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-43" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="402.66666666666674" as="sourcePoint"/>
+                        <mxPoint x="410" y="402" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-44" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="4. POST with data of recipe" vertex="1">
+                    <mxGeometry relative="1" x="0.0666" as="geometry">
+                        <mxPoint y="-12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Frontend" vertex="1">
+                    <mxGeometry height="60" width="120" x="170" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-49" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="431.33333333333326" as="sourcePoint"/>
+                        <mxPoint x="290" y="432" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-50" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="7. 201. Created recipe" vertex="1">
+                    <mxGeometry relative="1" x="0.1836" y="3" as="geometry">
+                        <mxPoint x="11" y="5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Backend&amp;nbsp;" vertex="1">
+                    <mxGeometry height="60" width="120" x="410" y="379" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-47" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="EVykAi2dWBb8Uou-y4qD-30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="424" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-48" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="6. Recipe save with ID&amp;nbsp;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0421" y="2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-32" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Database" vertex="1">
+                    <mxGeometry height="80" width="60" x="670" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-33" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0.083;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50" y="376.00206953642373" as="sourcePoint"/>
+                        <mxPoint x="179.96000000000004" y="376.02" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-34" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Clicks Add Recipe" vertex="1">
+                    <mxGeometry relative="1" x="-0.0305" y="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-56" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="1.&amp;nbsp;" vertex="1">
+                    <mxGeometry relative="1" x="-0.7846" y="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-37" edge="1" parent="1" source="EVykAi2dWBb8Uou-y4qD-29" style="edgeStyle=none;html=1;entryX=0.9;entryY=0.808;entryDx=0;entryDy=0;entryPerimeter=0;" target="EVykAi2dWBb8Uou-y4qD-27">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-38" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="2. Recipe form appears&amp;nbsp;" vertex="1">
+                    <mxGeometry relative="1" x="0.1544" y="2" as="geometry">
+                        <mxPoint x="11" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-41" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0.083;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="49.04" y="438.00206953642373" as="sourcePoint"/>
+                        <mxPoint x="179.00000000000003" y="438.02" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-42" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3. User enters the recipe" vertex="1">
+                    <mxGeometry relative="1" x="-0.0305" y="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-45" edge="1" parent="1" source="EVykAi2dWBb8Uou-y4qD-30" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=7.5;entryPerimeter=0;" target="EVykAi2dWBb8Uou-y4qD-32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-46" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="5. Save new recipe" vertex="1">
+                    <mxGeometry relative="1" x="0.0008" y="8" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-54" edge="1" parent="1" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="110" y="462"/>
+                        </Array>
+                        <mxPoint x="170" y="462" as="sourcePoint"/>
+                        <mxPoint x="50" y="462" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-55" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="8. Displays new recipe&amp;nbsp;" vertex="1">
+                    <mxGeometry relative="1" x="0.1667" y="2" as="geometry">
+                        <mxPoint x="11" y="6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-59" parent="1" style="shape=tape;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;u&gt;View/Read new recipe&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;of, for example Pasta&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="88" width="420" x="59" y="526" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-65" edge="1" parent="1" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50" y="687" as="sourcePoint"/>
+                        <mxPoint x="200" y="687" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-66" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="1. Clicks Pasta&amp;nbsp;" vertex="1">
+                    <mxGeometry relative="1" x="-0.08" y="2" as="geometry">
+                        <mxPoint y="-15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-60" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Actor" vertex="1">
+                    <mxGeometry height="60" width="30" x="20" y="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-67" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="688" as="sourcePoint"/>
+                        <mxPoint x="485" y="688" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-68" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="GET/ recipes/1" vertex="1">
+                    <mxGeometry relative="1" x="-0.1394" y="-1" as="geometry">
+                        <mxPoint y="-15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-75" edge="1" parent="1" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="727" as="sourcePoint"/>
+                        <mxPoint x="55" y="727" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-76" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Displays recipe details&amp;nbsp;" vertex="1">
+                    <mxGeometry relative="1" x="0.0207" y="-2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Frontend" vertex="1">
+                    <mxGeometry height="60" width="120" x="200" y="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-73" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="485" y="717" as="sourcePoint"/>
+                        <mxPoint x="320" y="717" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-74" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="200. OK recipe" vertex="1">
+                    <mxGeometry relative="1" x="-0.1152" y="-1" as="geometry">
+                        <mxPoint y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Backend" vertex="1">
+                    <mxGeometry height="60" width="120" x="485" y="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-64" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Database" vertex="1">
+                    <mxGeometry height="80" width="60" x="750" y="667" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-69" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0.167;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="605" y="682.0111617523953" as="sourcePoint"/>
+                        <mxPoint x="760.02" y="682.04" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-70" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Find recipe with ID 1" vertex="1">
+                    <mxGeometry relative="1" x="-0.084" y="6" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-71" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0.975;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="750" y="700.0042696629215" as="sourcePoint"/>
+                        <mxPoint x="602" y="700.42" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-72" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Returns recipe details&amp;nbsp;" vertex="1">
+                    <mxGeometry relative="1" x="0.0002" y="4" as="geometry">
+                        <mxPoint y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-77" parent="1" style="shape=tape;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;u&gt;Edit(Updatte) a recipe&lt;/u&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="88" width="420" x="50" y="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-83" edge="1" parent="1" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="89" y="969" as="sourcePoint"/>
+                        <mxPoint x="240" y="969" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-84" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Clicks Edit recipe" vertex="1">
+                    <mxGeometry relative="1" x="-0.1391" as="geometry">
+                        <mxPoint y="-11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-97" edge="1" parent="1" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="89" y="1012" as="sourcePoint"/>
+                        <mxPoint x="240" y="1012" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-98" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-97" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Changes instructions&amp;nbsp;" vertex="1">
+                    <mxGeometry relative="1" x="0.0199" y="3" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-78" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Actor" vertex="1">
+                    <mxGeometry height="60" width="30" x="59" y="968" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-86" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="985" as="sourcePoint"/>
+                        <mxPoint x="480" y="985" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-87" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-86" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="GET recipe/1" vertex="1">
+                    <mxGeometry relative="1" x="0.0167" y="2" as="geometry">
+                        <mxPoint x="-1" y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Frontend" vertex="1">
+                    <mxGeometry height="60" width="120" x="240" y="968" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-93" edge="1" parent="1" source="EVykAi2dWBb8Uou-y4qD-81" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="EVykAi2dWBb8Uou-y4qD-80">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-94" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Recipe details" vertex="1">
+                    <mxGeometry relative="1" x="0.1667" y="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-105" edge="1" parent="1" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="1039.705882352941" as="sourcePoint"/>
+                        <mxPoint x="370" y="1041" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-107" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-105" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="200. OK update recipe" vertex="1">
+                    <mxGeometry relative="1" x="-0.0912" y="-1" as="geometry">
+                        <mxPoint y="16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Backend" vertex="1">
+                    <mxGeometry height="60" width="120" x="480" y="968" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-91" edge="1" parent="1" source="EVykAi2dWBb8Uou-y4qD-82" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="EVykAi2dWBb8Uou-y4qD-81">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-92" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Returns recipe" vertex="1">
+                    <mxGeometry relative="1" x="0.1077" y="-1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-103" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="730" y="1034" as="sourcePoint"/>
+                        <mxPoint x="600" y="1034" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-104" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Confirm update" vertex="1">
+                    <mxGeometry relative="1" x="-0.0615" y="-2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-82" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Database" vertex="1">
+                    <mxGeometry height="80" width="60" x="730" y="958" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-85" edge="1" parent="1" source="EVykAi2dWBb8Uou-y4qD-80" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="EVykAi2dWBb8Uou-y4qD-78">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-96" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-85" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Displays edit form" vertex="1">
+                    <mxGeometry relative="1" x="-0.0602" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-88" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="600" y="985" as="sourcePoint"/>
+                        <mxPoint x="730" y="985" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-89" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Retrive recipe" vertex="1">
+                    <mxGeometry relative="1" y="-1" as="geometry">
+                        <mxPoint y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-101" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="600" y="1021" as="sourcePoint"/>
+                        <mxPoint x="730" y="1021" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-102" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Update recipe" vertex="1">
+                    <mxGeometry relative="1" x="-0.0462" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-108" edge="1" parent="1" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="1049.995882352941" as="sourcePoint"/>
+                        <mxPoint x="110" y="1051.29" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-109" connectable="0" parent="EVykAi2dWBb8Uou-y4qD-108" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Displays updated recipe" vertex="1">
+                    <mxGeometry relative="1" x="-0.0912" y="-1" as="geometry">
+                        <mxPoint y="16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-110" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="1010" as="sourcePoint"/>
+                        <mxPoint x="480" y="1010" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EVykAi2dWBb8Uou-y4qD-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1. Recipe Data is stored in database.&amp;nbsp;&lt;div&gt;2. Frontend communicates with backend with HTTP requests to an API.&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. When user adds a recipe, frontend sends the recipe information to the backend and backend precesses and save it in the database.&amp;nbsp;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="120" width="401" x="59" y="1170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
