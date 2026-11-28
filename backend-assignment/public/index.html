@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School of Coding</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>School of Coding</h1>
+        <p>Learn. Practice. Build your future.</p>
+    </header>
+
+    <main>
+        <h2>Registered Users</h2>
+        <p class="user-count">
+            <span id="user-count">Loading...</span>
+        </p>
+    </main>
+    <script>
+        fetch("/user-count")
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("user-count").textContent = data.userCount;
+            });
+    </script>
+</body>
+
+</html>
